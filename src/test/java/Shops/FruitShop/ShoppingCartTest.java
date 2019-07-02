@@ -57,5 +57,4 @@ class ShoppingCartTest {
         assertTrue(myCart.addItem(Fruit.Apple));
         assertTrue(myCart.addItem(Fruit.Orange));
 	}
-
 }

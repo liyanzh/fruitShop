@@ -1,12 +1,11 @@
 package Shops.FruitShop;
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 import Shops.FruitShop.Inventory.Fruit;
 
 /**
- * Hello world!
+ * Fruit Shop App
  *
  */
 public class App 

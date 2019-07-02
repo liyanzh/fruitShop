@@ -44,9 +44,10 @@ public class AppTest
          myCart.addItem(Fruit.Apple);
          myCart.addItem(Fruit.UNKNOWN);
          myCart.addItem(Fruit.Orange);
+         myCart.addItem(Fruit.Orange);
          
          double myTotal = myCart.getTotal();
-         double expectedTotal = Fruit.Apple.getPrice() * 3 + Fruit.Orange.getPrice() * 2;
+         double expectedTotal = Fruit.Apple.getPrice() * 2 + Fruit.Orange.getPrice() * 2;
          System.out.println("mytotal = " + myTotal + ", expected = " + expectedTotal);
          assertEquals(expectedTotal, myTotal); 
        
