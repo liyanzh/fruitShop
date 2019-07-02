@@ -35,16 +35,4 @@ public class ShoppingCart {
 		double total = cart.stream().map(f -> f.getPrice()).reduce(0.0, Double::sum);
 		return total;
 	}
-	
-	@Override
-	public toString() {
-		StringBuffer result = new StringBuffer("Items in your cart");
-		forEach(Fruit f: cart)
-		{
-			result.append(f.getName() + "\t" + f.getPrice());
-		}
-		
-		return result.toString();
-	}
-
 }
